@@ -8,7 +8,9 @@ With that, I’d like you to create a similar Codepen as listed below, and to us
 
 Codepen from today: http://codepen.io/matthiasak/pen/jwrCv
 
-When you have completed this, I will have you post
+When you have completed this, please post a link to your pen as a comment here: https://github.com/TIY-Houston-Q3-Front-End/Notes/issues/1
+
+That's all!
 
 Resources:
 HSL Picker http://hslpicker.com/#fab7ea,0.3
