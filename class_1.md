@@ -13,9 +13,9 @@ When you have completed this, please post a link to your pen as a comment here: 
 That's all!
 
 Resources:
-HSL Picker http://hslpicker.com/#fab7ea,0.3
-All the HTML Tags! http://www.w3schools.com/tags/
-All the CSS properties! http://www.w3schools.com/cssref/
+- HSL Picker http://hslpicker.com/#fab7ea,0.3
+- All the HTML Tags! http://www.w3schools.com/tags/
+- All the CSS properties! http://www.w3schools.com/cssref/
 
 Github class notes will be hosted here (I’m working on that next!):
-https://github.com/TIY-Houston-Q3-Front-End/Notes
+- https://github.com/TIY-Houston-Q3-Front-End/Notes
