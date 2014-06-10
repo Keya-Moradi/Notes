@@ -22,9 +22,11 @@ Homework:
 	- `border` and `border-radius` : http://www.w3schools.com/css/css3_borders.asp
 	- `background`, `background-color`, `background-image` : http://www.w3schools.com/css/css3_backgrounds.asp
 	- `text-shadow` : http://www.w3schools.com/css/css3_text_effects.asp
-- When you are done, zip your files up like the following picture indicates: ![](http://cl.ly/image/1Q142C452Y0I/Screen%20Shot%202014-06-10%20at%201.33.19%20PM.png) and email them to me at [matt@theironyard.com](mailto:matt@theironyard.com).
+- When you are done, zip your files up like the following picture indicates: ![](http://cl.ly/image/1Q142C452Y0I/Screen%20Shot%202014-06-10%20at%201.33.19%20PM.png)
+- ... and email the zip file to me at [matt@theironyard.com](mailto:matt@theironyard.com).
 
 ### Bonus!
 
 Read through this site if you finish, we will go through this tomorrow at beginning of lecture, too.
 
+http://learnlayout.com/
