@@ -1,0 +1,86 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    background-color: #ff4a56;
+    height:1000px;
+}
+/**
+ * centered form box
+ */
+ .centeredForm {
+    display: block;
+    width: 500px;
+    height: 460px;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+}
+input, button {
+    width:100%;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 74, 86, .5);
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+button {
+    width: auto;
+    padding: .25em 1em;
+    display: block;
+    margin: 10px auto 0px auto;
+    text-transform: uppercase;
+    color: rgba(255, 74, 86, .5);
+    font-size: 2em;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 1em;
+    margin-left: .25em;
+    color: rgba(255, 74, 86, .5);
+}
+input:focus {
+    outline: none;
+    background-color: rgba(255, 74, 86, 1);
+    color: white;
+}
+.centeredForm input:focus + label {
+    opacity: 0;
+}
+.centeredForm input:valid + label {
+    opacity: 0;
+}
+.question {
+    position: relative;
+}
+.centeredForm label {
+    position: absolute;
+    top:12px;
+    left:10px;
+}
+
+
+/**
+ * BUTTON HOVER, FOCUS, and ACTIVE
+ */
+
+button:hover {
+    background-color: red;
+    border-color: white;
+    color:white;
+}
+button:focus {
+    background-color: blue;
+    border-color: white;
+    color:white;
+}
+button:active {
+    background-color: green;
+    border-color: white;
+    color:white;
+}
