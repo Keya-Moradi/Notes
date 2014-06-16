@@ -19,7 +19,7 @@ Resources:
 
 Homework:
 
-Our homework is to create a [mobile version of Surf N Paddle](./class_6/surf-and-paddle-responsive.png).
+Our homework is to create a [mobile version of Surf N Paddle](./class_6//surf-and-paddle-responsive.pdf).
 
 Start from scratch, think about clean code!
 
