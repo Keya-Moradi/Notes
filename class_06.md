@@ -1,13 +1,14 @@
 ### Class 6 - Monday, June 16th, 2014
 
-> Frankencode
+> "Frankencode"
 > - David Freedman
 
 Howdy Front-Enders!
 
 Today we:
 
-- went over the homework content, and many examples of them
+- went over the homework content, and many examples
+- talked about media queries, transitions, animations/keyframes, and built an [example project on them](./class_6/)
 
 Resources:
 
@@ -18,9 +19,13 @@ Resources:
 
 Homework:
 
-Our homework is to create an HTML and CSS file for the [Surf N Paddle design](./class_4/surf-and-paddle.png). This homework will be due on Monday. Friday is reserved for working here at START, and asking questions.
+Our homework is to create a [mobile version of Surf N Paddle](./class_6/surf-and-paddle-responsive.png).
 
-I mentioned a few tools you can use:
+Start from scratch, think about clean code!
+
+If you finish this afternoon, make this mobile version "responsive" – use media queries to add columns to the content and make the site scale outwards to a larger size.
+
+Use the resources above and these tools at your disposal:
 
 - Screenshot tool (CMD + Shift + 4)
 - Spotlight - to find programs - (CMD + Space)
