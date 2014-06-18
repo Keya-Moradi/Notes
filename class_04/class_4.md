@@ -6,12 +6,12 @@ Today we:
 
 - went over the homework content, and many examples of them
 - reworked our blog layout as "display:inline-block" versus a "position:fixed"
-- tackled our fancy form, [available here - class_4 folder](./class_4/)
+- tackled our fancy form, [available here - class_4 folder](./)
 - covered new CSS selectors, and more pseudo-classes!!!
 
 Homework:
 
-Our homework is to create an HTML and CSS file for the [Surf N Paddle design](./class_4/surf-and-paddle.png). This homework will be due on Monday. Friday is reserved for working here at START, and asking questions.
+Our homework is to create an HTML and CSS file for the [Surf N Paddle design](./surf-and-paddle.png). This homework will be due on Monday. Friday is reserved for working here at START, and asking questions.
 
 I mentioned a few tools you can use:
 

@@ -8,7 +8,7 @@ Howdy Front-Enders!
 Today we:
 
 - went over the homework content, and many examples
-- talked about media queries, transitions, animations/keyframes, and built an [example project on them](./class_6/)
+- talked about media queries, transitions, animations/keyframes, and built an [example project on them](./)
 
 ### Want to watch a neat podcast?
 
@@ -23,7 +23,7 @@ Resources:
 
 Homework:
 
-Our homework is to create a [mobile version of Surf N Paddle](./class_6//surf-and-paddle-responsive.pdf).
+Our homework is to create a [mobile version of Surf N Paddle](./surf-and-paddle-responsive.pdf).
 
 Start from scratch, think about clean code!
 

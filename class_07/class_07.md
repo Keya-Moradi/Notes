@@ -64,4 +64,4 @@ CSS:
 
 Homework:
 
-Our homework is to keep working on the [mobile version of Surf N Paddle](./class_6//surf-and-paddle-responsive.pdf), and make it responsive. That is, make it scale out the best you can to the [desktop version](./class+4/surf-and-paddle.png).
+Our homework is to keep working on the [mobile version of Surf N Paddle](../class_06/surf-and-paddle-responsive.pdf), and make it responsive. That is, make it scale out the best you can to the [desktop version](../class_04/surf-and-paddle.png).
