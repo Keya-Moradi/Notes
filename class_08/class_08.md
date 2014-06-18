@@ -82,6 +82,6 @@ If you don't have a responsive Surf N Paddle done yet, that is second priority. 
 
 References:
 
-- [desktop version](./class+4/surf-and-paddle.png)
-- [mobile version](./class_6//surf-and-paddle-responsive.pdf)
+- [desktop version](../class_04/surf-and-paddle.png)
+- [mobile version](../class_06/surf-and-paddle-responsive.pdf)
 
