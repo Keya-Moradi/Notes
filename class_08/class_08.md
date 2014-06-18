@@ -68,13 +68,13 @@ We talked about:
 	var y = 42 + " is the answer"; // "42 is the answer"
 	```
 
-Here's our JavaScript file from today: [example.js](./class_08/example.js)
+Here's our JavaScript file from today: [example.js](./example.js)
 
 Homework:
 
 **Priority 1**
 
-Save [homework_08.js](./class_08/homework_08.js) to your hard drive, follow the instructions in the file, and email me what you can tonight.
+Save [homework_08.js](./homework_08.js) to your hard drive, follow the instructions in the file, and email me what you can tonight.
 
 **Priority 2**
 
