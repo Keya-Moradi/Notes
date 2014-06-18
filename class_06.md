@@ -10,11 +10,15 @@ Today we:
 - went over the homework content, and many examples
 - talked about media queries, transitions, animations/keyframes, and built an [example project on them](./class_6/)
 
+### Want to watch a neat podcast?
+
+Subscribe to http://www.atozcss.com/ :-)
+
 Resources:
 
 - https://www.google.com/fonts
 - http://www.myfonts.com/WhatTheFont/
-- "Dingbats and Wingdings" - http://fortawesome.github.io/Font-Awesome/ and http://iconmelon.com/
+- "Dingbats and Wingdings" - http://fontawesome.github.io/Font-Awesome/ and http://iconmelon.com/
 - http://cubic-bezier.com/
 
 Homework:
