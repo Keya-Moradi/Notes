@@ -6,8 +6,24 @@
  * For example, if the user input 3 and 6, then the answer would be: "9 (3+6)".
  */
 
-function sum(a, b){
-	// return sum+" "+"("+a+","+b+")";
+// function sum(a, b){
+// 	var sum = a + b;
+// 	return sum
+// 		+ " ("
+// 		+ a
+// 		+ "+"
+// 		+ b
+// 		+ ")";
+// }
+
+var sum = function(a, b){
+	var sum = a + b;
+	return sum
+		+ " ("
+		+ a
+		+ "+"
+		+ b
+		+ ")";
 }
 
 console.log(sum(8, 11));
@@ -18,7 +34,7 @@ console.log(sum(8, 11));
  * Write a JavaScript program that calculates the average time for this marathoner to complete the full marathon (26.2mi)
  */
 
-var marathoner = {
+var matt = {
 	finishingTime1: 240, //in minutes
 	finishingTime2: 210.4,
 	finishingTime3: 235.1,
@@ -26,11 +42,25 @@ var marathoner = {
 	finishingTime5: 197.5
 };
 
-function getAverageTime(a, b){
-	// return ...
+var keya = {
+	finishingTime1: 120, //in minutes
+	finishingTime2: 110.4,
+	finishingTime3: 135.1,
+	finishingTime4: 108.9,
+	finishingTime5: 97.5
+};
+
+var getSum = function(p){
+	var f = "finishingTime";
+	return p[f+1] + p[f+2] + p[f+3] + p[f+4] + p[f+5];
 }
 
-console.log( getAverageTime(marathoner) );
+var getAverageTime = function(person){
+	return getSum(person) / 5;
+}
+
+console.log( getAverageTime(matt) );
+console.log( getAverageTime(keya) );
 
 
 /**
@@ -67,22 +97,13 @@ function getSumOfAccounts(account){
 	return sum;
 }
 
-// add 100, 200, 300 to RobertosBankAccount
-addToBank(RobertosBankAccount, 100, 200, 300);
-console.log(RobertosBankAccount); //--> Object {checking: 300, savings: 100, retirement: 200}
+addToBank(MattsBankAccount, 100, 10, 1);
+addToBank(RobertosBankAccount, 200, 50, 19);
 
-// add 500, 200, 1000 to MattsBankAccount
-addToBank(MattsBankAccount, 500, 200, 1000);
-console.log(MattsBankAccount); //--> Object {checking: 1000, savings: 500, retirement: 200}
+var sumOfMatts = getSumOfAccounts(MattsBankAccount);
 
-// get the sum of RobertosBankAccount
-var sumOfRobertosAccounts = getSumOfAccounts(RobertosBankAccount);
-console.log(sumOfRobertosAccounts); //--> 600
+// console.log(account.savings); --> ERROR: account does not exist
 
-// get the sum of MattsBankAccount
-var sumOfMattsAccounts = getSumOfAccounts(MattsBankAccount);
-console.log(sumOfMattsAccounts);
+var sumOfRobertos = getSumOfAccounts(RobertosBankAccount);
 
-// get the sum of both accounts
-console.log(sumOfRobertosAccounts + sumOfMattsAccounts); // --> same as below
-console.log( getSumOfAccounts(RobertosBankAccount) + getSumOfAccounts(MattsBankAccount) ); // --> same as above
+console.log(sumOfMatts - sumOfRobertos);
