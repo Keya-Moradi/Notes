@@ -66,7 +66,7 @@ var list1 = [{
     name: 'darron'
 }]
 
-var list2 = listOfObjects.concat([]);
+var list2 = list1.concat([]);
 
 list1.sort(myComparator);
 list2.sort(myComparatorReverse);
