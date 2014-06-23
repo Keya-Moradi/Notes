@@ -8,7 +8,7 @@
  * 		and B will be [9,8,7,6,5,4,3,2,1,0]
  */
 
-var A = [0,1,2,3,4,5,6,7,8,9];
+var A = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var B = [];
 
 // your code here
@@ -34,31 +34,39 @@ console.log(arr.length);
  *
  * one comparator will return the objects in alphabetical order compared to their name,
  * one comparator will return the objects in reverse
+ *
+ * array reference on w3c: http://www.w3schools.com/jsref/jsref_obj_array.asp
  */
 
-var myComparator = function(a, b){
-	return a - b;
+var myComparator = function(a, b) {
+    return a - b;
 }
-var myComparatorReverse = function(a, b){
-	return b - a;
+
+var myComparatorReverse = function(a, b) {
+    return b - a;
 }
-var listOfObjects = [{
-	name: 'michael'
+
+// fix the above two to sort the objects by 'name'
+
+var list1 = [{
+    name: 'michael'
 }, {
-	name: 'khalid'
+    name: 'khalid'
 }, {
-	name: 'amy'
+    name: 'amy'
 }, {
-	name: 'keya'
+    name: 'keya'
 }, {
-	name: 'joey'
+    name: 'joey'
 }, {
-	name: 'david'
+    name: 'david'
 }, {
-	name: 'roberto'
+    name: 'roberto'
 }, {
-	name: 'darron'
+    name: 'darron'
 }]
 
-listOfObjects.sort(myComparator);
-listOfObjects.sort(myComparatorReverse);
+var list2 = listOfObjects.concat([]);
+
+list1.sort(myComparator);
+list2.sort(myComparatorReverse);

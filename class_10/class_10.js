@@ -95,9 +95,9 @@ var numerical = [1, 2, 3, 6, 10, 9, 7];
 var compareInOrder = function(a, b){return a - b};
 var compareInReverse = function(a, b){return b - a};
 /**
- * if compare for a and b, returns -1 or less, a is before b
- * if compare for a and b, returns 0, maintain same order
- * if compare for a and b, returns 1 or more, a is after b
+ * if a should come before b, return -1
+ * if a and b should keep the same order, return 0
+ * if a should come after b, return 1
  */
 numerical.sort(compare);
 
