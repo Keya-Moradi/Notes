@@ -6,9 +6,9 @@ Today’s assignment is simple and tailored to help get you used to sharing code
 
 With that, I’d like you to create a similar Codepen as listed below, and to use at least 10 different CSS properties to explore. You will find HTML tags and CSS properties listed on the w3schools links below.
 
-Codepen from today: http://codepen.io/matthiasak/pen/jwrCv
-
 When you have completed this, please post a link to your pen as a comment here: https://github.com/TIY-Houston-Q3-Front-End/Notes/issues/1
+
+View other homeworks here: https://github.com/TIY-Houston-Q3-Front-End/Notes/issues/1
 
 That's all!
 
