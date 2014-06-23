@@ -30,43 +30,16 @@ console.log(arr.length);
 /**
  * Part 3
  *
- * sort() an array with your own comparator (refer to notes)
+ * I'm removing this part 3 :-) on array.sort()
  *
- * one comparator will return the objects in alphabetical order compared to their name,
- * one comparator will return the objects in reverse
+ * I've concluded it was too fast, and I'm sorry for that oversight. We'll talk about the following in the morning, and recollect our thoughts on sort().
  *
- * array reference on w3c: http://www.w3schools.com/jsref/jsref_obj_array.asp
+ * instead, just play with:
+ *
+ * array.reverse(),
+ * array.concat(),
+ * array.shift(),
+ * and array.unshift()
+ *
+ * details: http://www.w3schools.com/jsref/jsref_obj_array.asp
  */
-
-var myComparator = function(a, b) {
-    return a - b;
-}
-
-var myComparatorReverse = function(a, b) {
-    return b - a;
-}
-
-// fix the above two to sort the objects by 'name'
-
-var list1 = [{
-    name: 'michael'
-}, {
-    name: 'khalid'
-}, {
-    name: 'amy'
-}, {
-    name: 'keya'
-}, {
-    name: 'joey'
-}, {
-    name: 'david'
-}, {
-    name: 'roberto'
-}, {
-    name: 'darron'
-}]
-
-var list2 = list1.concat([]);
-
-list1.sort(myComparator);
-list2.sort(myComparatorReverse);
